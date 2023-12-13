@@ -24,3 +24,32 @@ montarPasajerosDisca(Cola colaDiscapacitados): Este método simula el proceso de
 montarPasajerosNorm(Cola colaNorm): Similar al método anterior, pero se encarga del montaje de pasajeros normales en las filas correspondientes de los vagones
 
 bajarPasajeros(String estacion): Este método simula el proceso de bajada de pasajeros en una estación específica. Recorre los vagones, identifica las filas correspondientes y retira a los pasajeros que tienen la estación de destino igual a la estación proporcionada.
+
+Lectura de datos desde un archivo CSV: Se utiliza la clase BufferedReader para leer un archivo CSV llamado "agregar.csv". Se divide cada línea del archivo en datos separados por comas y se almacenan en variables como nombre, edad, estación de origen, estación de destino, discapacidad y cantidad de personas.La función agregarFilaCvs se llama para agregar filas de pasajeros al sistema según la información leída desde el archivo CSV.
+
+Se utilizan estructuras de datos como pilas (NodoPila), colas (NodoCola), y listas circulares (Circulo y Vagon) para gestionar la información de los pasajeros en diferentes estaciones. Se implementan operaciones como apilar, atender, getSiguiente, etc., para manipular estas estructuras.
+
+Recorrido de estaciones: La función run parece estar simulando el movimiento del tren entre diferentes estaciones. Se utilizan instrucciones switch para identificar la estación actual y realizar operaciones específicas para cada estación, como bajar y subir pasajeros.
+
+Actualización de la interfaz gráfica:
+
+Al parecer, estás actualizando una interfaz gráfica (n.ver.setText(respuestaTot)) con información sobre los pasajeros en cada estación.
+
+Clase Pila, Explicacion de Metodos
+La clase Pila implementa una pila en Java y parece estar diseñada para manejar dos tipos de pilas, una para personas con discapacidad y otra para personas sin discapacidad.
+
+Constructor: Inicializa la cima de la pila como null al crear una nueva instancia de la clase.
+
+esVacia: Retorna true si la pila está vacía (cima es null), de lo contrario, retorna false.
+
+esLlenaNorm: Recalcula el conteo de elementos en la pila y verifica si la cantidad de elementos normales supera la cantidad especificada.
+
+esLlenaDisca: Recalcula el conteo de elementos en la pila y verifica si la cantidad de elementos con discapacidad supera la cantidad especificada.
+
+conteoPila: Recalcula el conteo de elementos normales y con discapacidad en la pila.
+
+apilar: Agrega un nuevo elemento a la pila, verificando si la pila está vacía o si se supera la cantidad especificada.
+
+desapilar: Elimina el elemento en la cima de la pila si la pila no está vacía.
+
+imprimirPila: Retorna una cadena que representa los elementos en la pila o un mensaje indicando que la pila está vacía.
