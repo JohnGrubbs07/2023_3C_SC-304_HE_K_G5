@@ -1,29 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Este proyecto se va a basar de un tren que pasa por estaciones de las diferentes provincias de costa rica, esto va a funcionar por medio de estructura de base de datos, utilizaremos lo que seria Pilas, Colas, Listas Circulares Dobles.
 
 Menu: El menu trae lo que serian las opciones: 1-Agregar Pasajeros 2-Info de paradas 3-Informes generales 4-Cargar Pasajeros de Archivo 5-Salir
