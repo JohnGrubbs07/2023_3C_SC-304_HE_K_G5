@@ -20,10 +20,6 @@ Al poner todo esto el sistema por medio de unos ifs va a separar a los pasajeros
 
 El sistema en todo momento enseña en la consola la informacion de la estacion en a que esta, tambien las personas en la fila y enseñara las personas que se bajan del vagon.
 
-Opcion 2: En esta opcion mostrara una info genenal sobre cuantas personas se han bajado del tren en total, no es nada sofisticado, solo es un informe.
+Opciones 2: Esta opcion es una simple opcion de salir
+Opcion3: Esta opcion es para salir del programa
 
-Opcion 3: En este apartado saldran informes de todo, desde personas que se han bajado, personas que se han subido, dinero generado y kilometro recorridos.
-
-Opcion 4: Esta opcion lo que va a hacer es que por medio de un archivo ini cargar pasajeros directamente a la fila de las direferentes estaciones.
-
-Opciones 5: Esta opcion es una simple opcion de salir
