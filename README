@@ -20,7 +20,7 @@ estructura de datos para representar los vagones y sus filas
 
 hacerFila(String nombre, String edad, boolean discapacidad, int estacionOrigenConsulta, int estacionDestinoConsulta): Crea una fila de pasajeros basada en la información proporcionada, como nombre, edad, discapacidad, estación de origen y estación de destino. Luego, coloca a la persona enla cola correspondiente según su discapacidad y estación de origen.
 
-montarPasajerosDisca(Cola colaDiscapacitados): Este método simula el proceso de montaje de pasajeros con discapacidad en los vagones. Recorre los vagones, identifica las filas correspondientes y coloca los pasajeros de la cola de discapacitados en las filas adecuadas.
+montarPasajerosDisca(Cola colaDiscapacitados): Montar es para montar al tren,Este método simula el proceso de montaje de pasajeros con discapacidad en los vagones. Recorre los vagones, identifica las filas correspondientes y coloca los pasajeros de la cola de discapacitados en las filas adecuadas.
 
 montarPasajerosNorm(Cola colaNorm): Similar al método anterior, pero se encarga del montaje de pasajeros normales en las filas correspondientes de los vagones
 
