@@ -20,6 +20,7 @@ Al poner todo esto el sistema por medio de unos ifs va a separar a los pasajeros
 
 El sistema en todo momento enseña en la consola la informacion de la estacion en a que esta, tambien las personas en la fila y enseñara las personas que se bajan del vagon.
 
-Opciones 2: Esta opcion es una simple opcion de salir
+Opciones 2: Esta opcion es una simple opcion de de cargar pasajeros de un archivo csv
+
 Opcion3: Esta opcion es para salir del programa
 
